@@ -1,0 +1,76 @@
+body {
+    background-image: url('background/background.jpeg');
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-bar {
+    background-color: rgb(100, 99, 99);
+    height: 100px;
+    box-shadow: 1px 2px 10px rgb(71, 71, 71);
+}
+
+header nav ul .links {
+    transition: 0.3s ease;
+}
+
+header nav ul .links:hover {
+    color: #000000 !important;
+    transform: scale(1.2);
+}
+
+header nav ul .links.ativo{
+   border-bottom: 1px solid #000000;
+   transform: scale(1.0);
+color: #000000 !important;
+}
+
+header nav ul .separador{
+    width: 1px; 
+    height: 29px; 
+    background-color: rgba(0, 0, 0, 0.166); 
+    margin-right: 10px; 
+}
+
+header nav ul .redes-sociais{
+    transition: all 0.3s ease;
+}
+
+header nav ul .redes-sociais:hover{
+    transform: translateY(-5px); 
+    color: black !important;
+}
+
+main #area-de-login{
+    backdrop-filter: blur(10px); 
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -45%);
+    border-radius: 20px;
+    padding: 30px 70px 70px 70px; 
+}
+
+main form h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main form input{
+    padding: 20px;
+    outline: none;
+    border-radius:  5px;
+    border: none;
+}
+
+main form .btn{
+    transition: transform 0.3s ease;
+}
+
+main form .btn:hover{
+    transform: translateX(10px);
+}
+
+
+

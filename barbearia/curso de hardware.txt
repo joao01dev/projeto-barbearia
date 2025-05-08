@@ -1,0 +1,8 @@
+Um restaurante deseja informatizar sua gestão de pedidos e estoque. O sistema deve permitir o cadastro de pratos e bebidas do cardápio, informando ingredientes, preço e tempo médio de preparo. Os clientes podem realizar pedidos, que devem estar associados a uma mesa e conter a lista de itens solicitados, com quantidade e observações específicas (exemplo: sem cebola, bem passado). Cada pedido deve ser atendido por um garçom, cujo nome e horário de atendimento devem ser registrados. Além disso, o sistema deve controlar o estoque de ingredientes, atualizando automaticamente a quantidade disponível conforma os pedidos são feitos. Deve ser possível emitir relatórios sobre os pratos mais pedidos e o consumo médio de ingredientes.
+
+webtudotech.com.br
+freecodecamp.org
+dynamicasoft.com
+blog.back4app.com
+
+bunni.emmiee

@@ -1,0 +1,202 @@
+@media screen and (max-width: 767px) {
+    header nav .logo{
+        left: 0% !important;
+        top: 10px !important;
+        width: 75px;
+        height: 75px;
+    }
+
+    header nav ul .links {
+        transition: 0.3s ease !important;
+        color: white !important;
+        padding-left: 0px !important ;
+    }
+
+    main .carousel-inner {
+        height:  240px !important;
+    }
+    main .cards{
+        background-color: #1a191903;
+        color: white; 
+        height: 300px;
+        width: 300px;
+        margin-bottom: 10px !important;
+        margin-left: 0px;
+    }
+    main .h1-quebra-linha{
+        font-size: 50px;
+    }
+    main .texto-card{
+        font-size: 10px !important;
+        margin-right: 10px !important;
+    }
+    main .coluna-vazia{
+        display: none;
+    }
+    main .ultimo-card .logo{
+        display: none;
+    }
+    main .ultimo-card{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        padding: 100px !important;
+        margin-left: 0px;
+        width: 500px !important
+
+    }
+    main .texto-ultimo-card{
+        display: flex;
+        margin-left: 50% !important;
+        font-size: 10px;
+        margin-top: 50px !important;
+    }main .bigode{
+        margin-top: 100px;
+    }
+    main .h1-titulo{
+        font-size: 24px !important;
+    }
+    main .h1-quebra-linha{
+        font-size: 24px !important;
+    }
+    main .texto-card{
+        margin-left: 70px !important;
+    }
+    main .carousel-item img {
+        height: 100%; /* Garante que a imagem preencha todo o item do carrossel */
+        width: 100%; /* Garante que a imagem preencha toda a largura do item */
+        object-fit: cover !important; /* Faz com que a imagem cubra o espaço do carrossel sem distorcer */
+    }
+    footer{
+        background-color: #646464ed !important;
+        height: 100px;
+        padding: 0px !important;
+    }
+
+}
+header nav ul {
+    background-color: rgb(100, 99, 99);
+    height: 100px;
+    box-shadow: 1px 2px 10px rgb(71, 71, 71);
+}
+
+header nav ul .links {
+    transition: 0.3s ease !important;
+    color: white !important;
+}
+
+header nav ul .links:hover {
+    color: rgb(0, 0, 0) !important;
+    transform: scale(1.2);
+}
+
+header nav ul .links.active {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    transform: scale(1.0) !important;
+    color: black !important;
+}
+
+header nav ul .separador {
+    width: 1px;
+    height: 29px;
+    background-color: rgba(0, 0, 0, 0.166);
+    margin-right: 10px;
+}
+
+header nav ul .redes-sociais, footer .redes-sociais {
+    transition: all 0.3s ease;
+}
+header nav ul .redes-sociais:hover, footer .redes-sociais:hover {
+    transform: translateY(-5px);
+    color: black !important;
+}
+
+header nav .logo{
+    left: 34%;
+    top: 0px;
+}
+
+main .carousel{
+    padding: 0px !important;
+}
+
+main .carousel-inner {
+    height:  672px; /* Mantenha a altura conforme necessário */
+}
+
+main .carousel-item {
+    height: 100%; /* Garante que os itens do carrossel ocupem toda a altura do carrossel */
+}
+
+main .carousel-item img {
+    height: 100%; /* Garante que a imagem preencha todo o item do carrossel */
+    width: 100%; /* Garante que a imagem preencha toda a largura do item */
+    object-fit: cover; /* Faz com que a imagem cubra o espaço do carrossel sem distorcer */
+}
+main .bloco-1{
+    background-image: url('../img\'s/paralax/foto-1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .bloco-2{
+    background-image: url('../img\'s/paralax/foto-2.webp');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main .cards{
+    background-color: #222222e5;
+    color: white;
+    text-align: justify;
+    height: 500px;
+}
+main .h1-titulo{
+ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+main .h1-quebra-linha{
+    margin-left: 10rem !important;
+    font-size: 50px;
+}
+
+main .texto-card{
+    margin-left: 150px;
+    font-size: 17px;
+    margin-right: 150px;
+    text-align: justify !important;
+}
+
+main .ultimo-card{
+    background-color: #222222e5;
+    color: white;
+    text-align: justify;
+    height: 550px;
+    margin-bottom: 20px;
+}
+
+main .card{
+    width: 500px;
+    background-color: #7b6f6f64 /*#524c4c1a*/;
+}
+
+main .ultima-row{
+    background-image: url('../img\'s/paralax/foto-3.webp');
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+footer{
+    background-color: #1f1f1f;
+    height: 300px;
+}
+
+
+
+  
